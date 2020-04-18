@@ -1,0 +1,116 @@
+body{
+    background: url(../Betty-Profile/img/bg-hero-desktop.svg);
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 3% auto 0 auto;
+    width: 95%;  
+}
+
+.item1{
+  margin-top: 0;
+
+}
+
+.item2{
+    margin-top: 0;
+}
+
+img{
+    height: 85vh;
+    width: 400px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+header{
+    display: inline;
+    padding: 2% auto;
+}
+
+header .every {
+        float: left;
+        padding-top: -5px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.every{
+    text-align: left;
+}
+
+h2{
+    margin-top: 8%;
+}
+
+.bio{
+    line-height: 2;
+    margin-left: 10%;
+    list-style: none;
+}
+
+.texts{
+    line-height: 2;
+}
+.item{
+    font-weight: 900;
+}
+
+.itemb{
+    border: none;
+    text-decoration: underline;
+}
+
+
+.box2{
+    width: 60vw;
+    margin:  auto;
+    border: 2px solid black;
+    padding: 3%;
+}
+
+.task{
+    line-height: 3;
+}
+
+button{
+    padding: 7px 30px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #cccccc;
+    margin-top: 5%;
+    height: 15;
+    width: 100vw;
+}
+
+.icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10%;
+}
+
+.fb, .tw, .insta{
+    margin: 10% auto;
+    height: 50px;
+}
+
+.address{
+    text-align: center;
+    justify-content: center;
+    float: center;
+    align-content: center;
+}

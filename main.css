@@ -1,5 +1,6 @@
 body{
     background: url(../Betty-Profile/img/bg-hero-desktop.svg);
+    font-family: 'Oxygen', sans-serif;
 }
 
 .box1{
@@ -9,13 +10,13 @@ body{
     width: 95%;  
 }
 
-.item1{
-  margin-top: 0;
-
+.box2{
+    display: grid;
+    grid-template-columns: 40% 60%;
 }
 
-.item2{
-    margin-top: 0;
+.grow{
+    margin-top: 2%;
 }
 
 img{
@@ -57,37 +58,57 @@ h2{
 
 .bio{
     line-height: 2;
-    margin-left: 10%;
     list-style: none;
+    margin-bottom: 1%;
 }
 
 .texts{
     line-height: 2;
 }
+
 .item{
     font-weight: 900;
+    line-height: 4;
+}
+
+.item2{
+    margin: 15% auto;
+    font-size: 20px;
+}
+
+.item1{
+    margin-top: 8%;
 }
 
 .itemb{
-    border: none;
+    border-bottom: 2px solid teal;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px 100px;
     text-decoration: underline;
 }
 
-
-.box2{
-    width: 60vw;
-    margin:  auto;
-    border: 2px solid black;
-    padding: 3%;
+.contact{
+    /*border: 2px solid black;*/
 }
 
 .task{
     line-height: 3;
+    margin-left: 5%;
+    margin-bottom: 1%;
 }
 
 button{
-    padding: 7px 30px;
-    margin-top: 10px;
+margin: 2% 0;
+background-color: teal;
+padding: 5px 30px;
+text-align: center;
+}
+
+button:hover{
+    background-color: #222222;
+    color: white;
 }
 
 footer{
@@ -113,4 +134,33 @@ footer{
     justify-content: center;
     float: center;
     align-content: center;
+}
+
+@media all and (max-width: 400px) {
+   img .slack{
+        display: none;
+    }
+    .box1, .box2{
+        display: inline-block;
+    }
+    .picture{
+        height: 75vh;
+        width: 90vw;
+        margin: 0 auto;
+        border-radius: 8%;
+    }
+    .texts{
+        text-align: center;
+        line-height: 2;
+    }
+
+    .icon{
+        margin-top: 5%;
+    }
+    .fb, .tw, .insta{
+      grid-gap: 10px;
+      margin: 0 0 -10px -10px;
+    }
+
+   
 }

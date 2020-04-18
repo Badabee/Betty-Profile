@@ -19,7 +19,7 @@ body{
     margin-top: 2%;
 }
 
-img{
+.picture{
     height: 85vh;
     width: 400px;
     margin: auto;
@@ -30,13 +30,6 @@ img{
 header{
     display: inline;
     padding: 2% auto;
-}
-
-header .every {
-        float: left;
-        padding-top: -5px;
-        font-weight: bold;
-        font-family: 'Poppins', sans-serif;
 }
 
 header nav{
@@ -120,13 +113,15 @@ footer{
 
 .icon{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-top: 10%;
 }
 
 .fb, .tw, .insta{
     margin: 10% auto;
     height: 50px;
+    text-align: center;
+    justify-content: center;
 }
 
 .address{
@@ -140,26 +135,33 @@ footer{
    img .slack{
         display: none;
     }
+
+    header nav{
+        float: left;
+    }
     .box1, .box2{
         display: inline-block;
     }
     .picture{
         height: 75vh;
-        width: 90vw;
-        margin: 0 auto;
+        width: 80vw;
+        margin: auto;
         border-radius: 8%;
     }
+
+    .item2{
+        font-size: 10px;
+    }
     .texts{
-        text-align: center;
-        line-height: 2;
+        text-align: left;
+        line-height: 3;
     }
 
-    .icon{
-        margin-top: 5%;
+    .item1, .grow{
+        display: block;
     }
-    .fb, .tw, .insta{
-      grid-gap: 10px;
-      margin: 0 0 -10px -10px;
+    footer{
+        display: none;
     }
 
    
